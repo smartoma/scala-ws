@@ -1,4 +1,4 @@
-package simple
+package A_functionality
 
 object FunctionalHelloWorld extends App {
 
