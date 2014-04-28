@@ -1,6 +1,6 @@
 package A_functionality
 
-object TraitHelloWorld extends App {
+object TraitHelloWorld {
 
   class Greeter {
     def greet(person: String) = "Hello " + person + "!"

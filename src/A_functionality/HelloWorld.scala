@@ -1,6 +1,6 @@
 package A_functionality
 
-object HelloWorld extends App {
+object HelloWorld {
 
   // For å komme i gang med Scala skal skal vi implementere en enkel kommandolinjeparser.
   // Tenk for exampel om noen enkel Unix applikasjon som kan startes med flere argumenter.
