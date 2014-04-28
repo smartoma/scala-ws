@@ -8,7 +8,7 @@ class GreetingSpec extends FlatSpec with Matchers {
 
   "A message" should "be printed to console" in {
 
-    val stream = new java.io.ByteArrayOutputStream()
+    val stream = new java.io.ByteArrayOutputStream
 
     Console.withOut(stream) {
       Greeting.makeLoggingGreeter().greet("World").trim shouldEqual "Hello, World"
