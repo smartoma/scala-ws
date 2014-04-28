@@ -1,6 +1,6 @@
 package A_functionality
 
-object FunctionalHelloWorld extends App {
+object FunctionalHelloWorld {
 
   def greet(person: String) = "Hello " + person + "!"
   def printer(text: String) = println(text)
